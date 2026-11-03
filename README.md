@@ -28,7 +28,7 @@ A modern e-commerce shopping experience built with React.js. This project demons
 Clone the repository:
 
 ```bash
-git clone https://github.com/markket287/older-project.git
+https://github.com/markket287/react-ecommerce-shopping-cart.git
 ```
 
 Go to the project directory:
