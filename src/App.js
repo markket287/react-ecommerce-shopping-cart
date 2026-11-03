@@ -6,7 +6,7 @@ import Review from './component/Review/Review';
 import ProductsDetails from './component/ProductsDetails/Produacts';
 import Home from './component/Home/Home';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (<div className="scroll-effect">
