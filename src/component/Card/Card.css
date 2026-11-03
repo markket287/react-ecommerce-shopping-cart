@@ -1,0 +1,71 @@
+.cointernar {
+  width: 100%;
+  background-color: rgb(209, 180, 15);
+  padding: 10px;
+}
+
+.oder-summery {
+  text-align: center;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .cointernar {
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .cointernar p {
+    margin: 8px 0;
+    font-size: 14px;
+  }
+
+  .oder-summery h3 {
+    font-size: 16px;
+    margin: 0 0 8px;
+  }
+
+  .cointernar > br {
+    display: none;
+  }
+
+  .cointernar a {
+    display: block;
+  }
+
+  .cointernar button {
+    width: 100%;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+/* Phone */
+@media (max-width: 640px) {
+  .cointernar {
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  .cointernar p {
+    margin: 6px 0;
+    font-size: 12px;
+  }
+
+  .cointernar p small {
+    font-size: 12px;
+  }
+
+  .oder-summery h3 {
+    font-size: 13px;
+    line-height: 1.3;
+  }
+
+  .cointernar button {
+    height: 34px;
+    font-size: 12px;
+    padding: 0 4px;
+  }
+}
