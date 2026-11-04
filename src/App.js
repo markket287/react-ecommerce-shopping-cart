@@ -5,6 +5,7 @@ import Shop from './component/shop/Shop';
 import Review from './component/Review/Review';
 import ProductsDetails from './component/ProductsDetails/Produacts';
 import Home from './component/Home/Home';
+import Manage from './component/Manage/Manage';
 
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Shop" element={<Shop />} />
+        <Route path="/Manage" element={<Manage />} />
         <Route path="/Review" element={<Review />} /> {/* component load sent with Card compont=element={<Review />} */}
         <Route path="/product/:productKey" element={<ProductsDetails />} />
         <Route path="*" element={<h1 style={{ color: "red", textAlign:'center' }}> 404 - Page Not Found </h1>} />
